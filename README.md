@@ -17,6 +17,10 @@ Currently living in the DC area and passionate about real estate and constructio
 The real estate market is every growing with properties more and more expensive.
 The goal of this study is to identify the parameters that influence the selling price
 
+# Unit of Analysis
+
+
+
 # Hypothesis / Research Question(s)
 - What are the attributes that affect the housing selling prices in DC downtown?
 - Are structural characteristics playing a role in the selling price?
@@ -27,6 +31,7 @@ The dataset contains attribution on housing and structural characteristics for r
 Computer Assisted Mass Appraisal (CAMA) database. The dataset contains attribution on housing characteristics for residential properties, and was created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies.
 Number of rows: 108,197 
 Number of columns: 39
+Examples of attributes: #bathroom, #bedrooms, #kitchens, GBA (Gross building area), saledate, heat type, stories,external walls type, internal walls type,roof type, structure type 
 https://opendata.dc.gov/datasets/DCGIS::computer-assisted-mass-appraisal-residential/about
 
 # Exploratory Data Analysis (EDA)
@@ -45,5 +50,6 @@ https://opendata.dc.gov/datasets/DCGIS::computer-assisted-mass-appraisal-residen
 - Training the models: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
 - Accuracy methods
 - Predict the housing prices on test dataset
+- Visualization of the results
 
 # Conclusion and lessons learned
