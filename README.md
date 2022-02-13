@@ -44,10 +44,11 @@ Computer Assisted Mass Appraisal (CAMA) database.
 - Categorical data encoding
 - Feature engineering
 - Feature importance
-- Feature selection
-- Training the models: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
-- Accuracy methods
+- Feature selection with Random forest
+- Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
+- Accuracy methods (precision, recall, F1)
 - Predict the housing prices on test dataset
 - Visualization of the results
+- Map of DC with prices
 
 # Conclusion and lessons learned
