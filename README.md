@@ -34,7 +34,7 @@ Computer Assisted Mass Appraisal (CAMA) database.
 
 # Exploratory Data Analysis (EDA)
 
-## General Statistics
+## EDA: General Statistics
 
 ![image](https://user-images.githubusercontent.com/70168968/155884650-797530ef-e449-46ce-9910-c463f3039872.png)
 
@@ -47,7 +47,7 @@ Computer Assisted Mass Appraisal (CAMA) database.
 - Average stories: 2
 - Average GBA: 1742 sqft
 
-## Sales Frequency
+## EDA: Sales Frequency
 ### Year
 ![image](https://user-images.githubusercontent.com/70168968/155884737-69bcf267-6ac4-40c1-9bbc-5297c1438368.png)
 
@@ -57,7 +57,7 @@ Computer Assisted Mass Appraisal (CAMA) database.
 
 - More houses sold in January, July and June
 
-## Variables Frequency 
+## EDA: Variables Frequency 
 ### 1.Heat type
 ![image](https://user-images.githubusercontent.com/70168968/155884833-653eb12f-af4e-4519-82f3-969be6595162.png)
 The three most common heat type are:
@@ -79,7 +79,7 @@ The five common exterior walls are: 92056
 - Vinyl Siding (5.4%)
 - Wood Siding (4.1%)
 - Stucco (2.9%)
-#### 4. Interior walls
+### 4. Interior walls
 ![INTWALL](https://user-images.githubusercontent.com/70168968/155885010-55e9684b-d14f-47be-b956-a1dd1c18c943.png)
 
 The four common interior walls are:
@@ -87,7 +87,7 @@ The four common interior walls are:
 - Hardwood/carp (10.9%)
 - Wood floor (7.1%)
 - Carpet (3.3%)
-#### 5.Roof type
+### 5.Roof type
 ![roof](https://user-images.githubusercontent.com/70168968/155885097-649a17af-35d6-42f8-a093-ea1ef6c89521.png)
 
 The four most common roof types are:
@@ -96,8 +96,53 @@ The four most common roof types are:
 - Comp Shingle (28.7%)
 - Metal-sms (27.7%)
 - Slate (10.1%)
-#### 6.
+### 6. Number of bathrooms
 ![BATHRM](https://user-images.githubusercontent.com/70168968/155885073-cc8a7517-a9f8-4d35-aa3d-7b86a81f6995.png)
+Most of the houses have:
+
+- 2 bathrooms (35.8%)
+- 1 bathroom (30.6%)
+- 3 bathrooms (22.4%)
+- 4 bathrooms (8.8%)
+### 7. Number of rooms
+![ROOMS](https://user-images.githubusercontent.com/70168968/155885571-66d1ed37-9161-4695-a2e4-af02ad0030c0.png)
+
+The most common rooms numbers are:
+
+- 6 rooms (31.4%)
+- 7 rooms (20.2%)
+- 8 rooms (15.9%)
+- 5 rooms (8.1%)
+- 9 rooms (7.3%)
+- 10 rooms (6%)
+- 12 rooms (2.9%)
+- 11 rooms (2.3%)
+- 16 rooms (1.3%)
+### 8. Number of bedrooms
+![BEDRM](https://user-images.githubusercontent.com/70168968/155885643-4c2d720c-28a4-41f1-9a55-8bd132ac9dbb.png)
+The most common rooms numbers are:
+
+- 3 bedrooms (48.3%)
+- 4 bedrooms (25%)
+- 2 bedrooms (13.5%)
+- 5 bedrooms (7.6%)
+- 6 bedrooms (3.3%)
+
+### 9. Number of stories
+![STORIES](https://user-images.githubusercontent.com/70168968/155885655-3cb0cae5-295f-4fbd-9ecd-8eecebd71e44.png)
+
+The most common stories numbers are:
+
+- 2 stories (73.9%)
+- 3 stories (9.4%)
+- 2.5 stories (5.9%)
+- 1 story (4.1%)
+- 1.5 stories (2%)
+## EDA: Correlation Matrix
+![heatmap](https://user-images.githubusercontent.com/70168968/155885744-f9da5649-bed1-473e-890d-01fc80e2b46d.png)
+
+
+
 
 
 
