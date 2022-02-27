@@ -141,6 +141,12 @@ The most common stories numbers are:
 ## EDA: Correlation Matrix
 ![heatmap](https://user-images.githubusercontent.com/70168968/155885744-f9da5649-bed1-473e-890d-01fc80e2b46d.png)
 
+The variables that are more correlated to the price are:
+- Gross Building Area (GBA) (0.41)
+- Number of bathrooms (0.42)
+- Number of bedrooms (0.27)
+- Number of rooms (0.24)
+- Roof type (0.14)
 
 
 
