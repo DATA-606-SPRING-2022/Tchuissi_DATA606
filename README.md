@@ -60,17 +60,39 @@ Computer Assisted Mass Appraisal (CAMA) database.
 ## Variables Frequency 
 ### 1.Heat type
 ![image](https://user-images.githubusercontent.com/70168968/155884833-653eb12f-af4e-4519-82f3-969be6595162.png)
+The three most common heat type are:
+- Hot Water Rad (36.8%)
+- Forced Air (35.8%)
+- Warm Cool (25%)
 ### 2. House structure
 ![image](https://user-images.githubusercontent.com/70168968/155884851-97618645-afc7-41f6-afcc-8516c4a64a27.png)
+The three most common house structures are:
+- Row houses (50.6%)
+- Single houses (29.4%)
+- Semi-detached houses (15%)
+### 3. Exterior Walls
+![EXTWALLS](https://user-images.githubusercontent.com/70168968/155885002-ec15c11b-c2c9-4965-b4c6-609d25039d51.png)
+
+The five common exterior walls are: 92056
+- Common brick (75%)
+- Brick/Siding (5.7%)
+- Vinyl Siding (5.4%)
+- Wood Siding (4.1%)
+- Stucco (2.9%)
+#### 4. Interior walls
+![INTWALL](https://user-images.githubusercontent.com/70168968/155885010-55e9684b-d14f-47be-b956-a1dd1c18c943.png)
+
+The four common interior walls are:
+- Hardwood (78.3%)
+- Hardwood/carp (10.9%)
+- Wood floor (7.1%)
+- Carpet (3.3%)
 
 
 
 
 
-- Handling missing value
-- Columns renaming
-- Statistical analysis
-- Correlation matrix
+
 
 # ML Techniques
 - Split dataset
