@@ -38,6 +38,16 @@ Computer Assisted Mass Appraisal (CAMA) database.
 
 ![image](https://user-images.githubusercontent.com/70168968/155884650-797530ef-e449-46ce-9910-c463f3039872.png)
 
+- Max selling price:
+         $25,100,000
+- Average selling price:
+         $450,000
+- Average bathrooms: 2
+- Average bedrooms: 3
+- Average stories: 2
+- Average GBA: 1742 sqft
+![image](https://user-images.githubusercontent.com/70168968/155884685-5912cf73-720c-4da7-a5d6-e1cc110ef5c3.png)
+
 
 - Handling missing value
 - Columns renaming
