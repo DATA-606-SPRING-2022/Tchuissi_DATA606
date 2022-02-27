@@ -34,6 +34,11 @@ Computer Assisted Mass Appraisal (CAMA) database.
 
 # Exploratory Data Analysis (EDA)
 
+## General Statistics
+
+![image](https://user-images.githubusercontent.com/70168968/155884650-797530ef-e449-46ce-9910-c463f3039872.png)
+
+
 - Handling missing value
 - Columns renaming
 - Statistical analysis
