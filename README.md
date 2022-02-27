@@ -87,6 +87,16 @@ The four common interior walls are:
 - Hardwood/carp (10.9%)
 - Wood floor (7.1%)
 - Carpet (3.3%)
+#### 5.Roof type
+The four most common roof types are:
+
+- Built up (29.7%)
+- Comp Shingle (28.7%)
+- Metal-sms (27.7%)
+- Slate (10.1%)
+#### 6.
+![BATHRM](https://user-images.githubusercontent.com/70168968/155885073-cc8a7517-a9f8-4d35-aa3d-7b86a81f6995.png)
+
 
 
 
