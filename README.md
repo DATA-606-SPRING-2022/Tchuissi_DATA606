@@ -46,7 +46,25 @@ Computer Assisted Mass Appraisal (CAMA) database.
 - Average bedrooms: 3
 - Average stories: 2
 - Average GBA: 1742 sqft
-![image](https://user-images.githubusercontent.com/70168968/155884685-5912cf73-720c-4da7-a5d6-e1cc110ef5c3.png)
+
+## Sales Frequency
+### Year
+![image](https://user-images.githubusercontent.com/70168968/155884737-69bcf267-6ac4-40c1-9bbc-5297c1438368.png)
+
+- 2021,2020 and 2019 are the top years: More houses sold during the COVID-19
+### Month
+![image](https://user-images.githubusercontent.com/70168968/155884759-49ea4dc5-ba1d-4183-990e-91204c97f88f.png)
+
+- More houses sold in January, July and June
+
+## Variables Frequency 
+### 1.Heat type
+![image](https://user-images.githubusercontent.com/70168968/155884833-653eb12f-af4e-4519-82f3-969be6595162.png)
+### 2. House structure
+![image](https://user-images.githubusercontent.com/70168968/155884851-97618645-afc7-41f6-afcc-8516c4a64a27.png)
+
+
+
 
 
 - Handling missing value
