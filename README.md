@@ -88,6 +88,8 @@ The four common interior walls are:
 - Wood floor (7.1%)
 - Carpet (3.3%)
 #### 5.Roof type
+![roof](https://user-images.githubusercontent.com/70168968/155885097-649a17af-35d6-42f8-a093-ea1ef6c89521.png)
+
 The four most common roof types are:
 
 - Built up (29.7%)
