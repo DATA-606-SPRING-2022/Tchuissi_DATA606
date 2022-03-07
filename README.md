@@ -52,6 +52,19 @@ Computer Assisted Mass Appraisal (CAMA) database.
 
 - More houses sold in January, July and June
 
+### COVID-19 influence
+![new-salescovid](https://user-images.githubusercontent.com/70168968/156957806-9090630a-204e-45ac-b671-fa55d4ed8ad1.png)
+
+- 2014-2015: +8,2%
+- 2015-2016: +12%
+- 2016-2017: +15,7%
+- 2017-2018: +7,9%
+- 2018-2019: +7,4%
+- 2019-2020: +13,5%
+- 2020-2021: +34,4%
+
+In 2021, the number of houses sold increased by 34,4% as compared to 2020. The COVID-19 may be a valid explanation.
+
 ## EDA: Variables Frequency 
 ### 1.Heat type
 ![image](https://user-images.githubusercontent.com/70168968/155884833-653eb12f-af4e-4519-82f3-969be6595162.png)
