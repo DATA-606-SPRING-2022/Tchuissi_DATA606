@@ -62,7 +62,7 @@ Computer Assisted Mass Appraisal (CAMA) database.
 - 2018-2019: +7,4%
 - 2019-2020: +13,5%
 - 2020-2021: +34,4%
-- 
+
 In 2021, the number of houses sold increased by 34,4% as compared to 2020. The COVID-19 may be a valid explanation.
 
 ## EDA: Variables Frequency 
