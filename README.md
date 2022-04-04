@@ -12,7 +12,7 @@ My unit of analysis is housing in Washington DC at a city level and the unit typ
 - What are the attributes that affect the selling prices in DC downtown for houses?
 - Are structural characteristics playing a role in the selling price?
 - Is there any pattern/reason as to why the housing selling prices are rising over the years? Is the COVID-19 increased the prices faster than before?
-- Where are the areas in DC with the highest selling prices?
+- How well can this dataset predict houses price?
 
 # Dataset
 - The first dataset contains attribution on housing and structural characteristics for residential properties.
