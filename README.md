@@ -224,9 +224,14 @@ We can see that this model does not perform very well on our dataset, which make
 
 ![image](https://user-images.githubusercontent.com/70168968/161617673-c8b0197f-7dea-4854-adbf-7a680be3623b.png)
 
+![image](https://user-images.githubusercontent.com/70168968/161618254-6a2d52b7-d9ed-4286-bd43-e1b58c9b5927.png)
+
+
 - Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
 - Accuracy methods (precision, recall, F1)
 - Predict the housing prices on test dataset
 - Visualization of the results
+
+
 
 # Conclusion and lessons learned
