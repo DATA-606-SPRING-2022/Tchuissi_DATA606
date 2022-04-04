@@ -204,6 +204,17 @@ Our first ML technique is Linear Regression.
 
 We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
 
+### Decision Tree
+![image](https://user-images.githubusercontent.com/70168968/161591278-0175cb33-4430-4313-82b0-16d8df016a6d.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161591306-2bea0f3e-783c-45c3-97b5-8f54f68c28b2.png)
+
+### Random Forest
+
+![image](https://user-images.githubusercontent.com/70168968/161591337-5b861896-bc1e-4acb-9d5f-e0546c579a8c.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161591360-b3956444-1ada-435f-956e-9b532324e494.png)
+
 ## Advanced Machine Learning Techniques
 
 - Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
