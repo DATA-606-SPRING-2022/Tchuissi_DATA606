@@ -217,6 +217,13 @@ We can see that this model does not perform very well on our dataset, which make
 
 ## Advanced Machine Learning Techniques
 
+### Gradient Boosting
+![image](https://user-images.githubusercontent.com/70168968/161617544-3b157133-e467-4a5f-98ef-554aa8ab3dc7.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161617616-cb0b1067-f098-4022-aa8b-13d09dbe115f.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161617673-c8b0197f-7dea-4854-adbf-7a680be3623b.png)
+
 - Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
 - Accuracy methods (precision, recall, F1)
 - Predict the housing prices on test dataset
