@@ -12,7 +12,7 @@ My unit of analysis is housing in Washington DC at a city level and the unit typ
 - What are the attributes that affect the selling prices in DC downtown for houses?
 - Are structural characteristics playing a role in the selling price?
 - Is there any pattern/reason as to why the housing selling prices are rising over the years? Is the COVID-19 increased the prices faster than before?
-- Where are the areas in DC with the highest selling prices?
+- How well can this dataset predict houses price?
 
 # Dataset
 - The first dataset contains attribution on housing and structural characteristics for residential properties.
@@ -46,11 +46,24 @@ Computer Assisted Mass Appraisal (CAMA) database.
 ### Year
 ![image](https://user-images.githubusercontent.com/70168968/155884737-69bcf267-6ac4-40c1-9bbc-5297c1438368.png)
 
-- 2021,2020 and 2019 are the top years: More houses sold during the COVID-19
+- 2021 (8935),2020 (6650) and 2019 (5857)are the top years: More houses sold during the COVID-19
+
 ### Month
 ![image](https://user-images.githubusercontent.com/70168968/155884759-49ea4dc5-ba1d-4183-990e-91204c97f88f.png)
 
 - More houses sold in January, July and June
+
+
+### Mean Price Over Year
+![image](https://user-images.githubusercontent.com/70168968/161561148-05b3c4eb-c725-4bd8-af47-ac807390e75e.png)
+
+- 2021: $726,258  (+8,4 %) 
+- 2020: $670,103 (+ 7,3 %) 
+- 2019: $624,484  (+ 2%) 
+- 2018: $612,418 (+ 3,8%) 
+- 2017: $589,815  
+
+In the last two years, the mean price increased by more than 7% each year. 
 
 ### COVID-19 influence
 ![new-salescovid](https://user-images.githubusercontent.com/70168968/156957806-9090630a-204e-45ac-b671-fa55d4ed8ad1.png)
@@ -156,14 +169,11 @@ The variables that are more correlated to the price are:
 - Number of rooms (0.24)
 - Roof type (0.14)
 
+## EDA: Scatterplot Matrix
+![image](https://user-images.githubusercontent.com/70168968/161561462-2bc8ed86-e728-4a78-8109-e94db93018b1.png)
 
-
-
-
-
-
-
-
+GBA, BATHRM and ROOMS have a linear correlation.
+There is no linear correlation for ROOF
 
 # ML Techniques
 - Split dataset
@@ -175,6 +185,5 @@ The variables that are more correlated to the price are:
 - Accuracy methods (precision, recall, F1)
 - Predict the housing prices on test dataset
 - Visualization of the results
-- Map of DC with prices
 
 # Conclusion and lessons learned
