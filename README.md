@@ -193,7 +193,16 @@ First, let's measure the feature importance by using the Random Forest ensemble 
 - Structure type (8,2%)
 - External wall type (7,2%)
 
-## Machine Learning evaluation
+## Machine Learning Techniques
+
+### Linear Regression
+
+Our first ML technique is Linear Regression.
+![image](https://user-images.githubusercontent.com/70168968/161583774-caf6b63d-45c5-40ad-b068-ef7668d04289.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161583899-b1f30ccc-92ee-467e-bcb4-139862125a66.png)
+
+We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
 
 ## Advanced Machine Learning Techniques
 
