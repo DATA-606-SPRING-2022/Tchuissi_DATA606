@@ -176,11 +176,27 @@ GBA, BATHRM and ROOMS have a linear correlation.
 There is no linear correlation for ROOF
 
 # ML Techniques
-- Split dataset
-- Categorical data encoding
-- Feature engineering
-- Feature importance
-- Feature selection with Random forest
+
+In this second part, we will now evaluate the dataset and see how well it predicts house prices.
+The goal is to predict a price, which is a continuous value: it's a regression problem.
+## Split dataset
+
+We will split the dataset with the 80/20: 80% for the the training data and 20% for the test data.
+We will have 10 features and 1 target, the price
+## Feature importance with Random forest
+First, let's measure the feature importance by using the Random Forest ensemble technique
+![image](https://user-images.githubusercontent.com/70168968/161578115-ecffdc61-1df2-466a-aa62-7d4f78ac9ff0.png)
+
+- The Gross Building Area (GBA) is the most important feature (37%)
+- The number of rooms (13%)
+- The roof type (8,6%)
+- Structure type (8,2%)
+- External wall type (7,2%)
+
+## Machine Learning evaluation
+
+## Advanced Machine Learning Techniques
+
 - Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
 - Accuracy methods (precision, recall, F1)
 - Predict the housing prices on test dataset
