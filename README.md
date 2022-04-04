@@ -198,22 +198,21 @@ First, let's measure the feature importance by using the Random Forest ensemble 
 ### Linear Regression
 
 Our first ML technique is Linear Regression.
-![image](https://user-images.githubusercontent.com/70168968/161583774-caf6b63d-45c5-40ad-b068-ef7668d04289.png)
+![image](https://user-images.githubusercontent.com/70168968/161627216-410ee6af-c8b6-4539-9aa6-4adc7ce7e3ae.png)
 
-![image](https://user-images.githubusercontent.com/70168968/161583899-b1f30ccc-92ee-467e-bcb4-139862125a66.png)
+![image](https://user-images.githubusercontent.com/70168968/161627256-e2ce8375-4ed2-43d1-b1e6-81208da4c50f.png)
 
 We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
 
 ### Decision Tree
-![image](https://user-images.githubusercontent.com/70168968/161591278-0175cb33-4430-4313-82b0-16d8df016a6d.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161591306-2bea0f3e-783c-45c3-97b5-8f54f68c28b2.png)
+![image](https://user-images.githubusercontent.com/70168968/161627381-410de1e3-8e3a-4b61-8c8f-0c976bb6170d.png)
+![image](https://user-images.githubusercontent.com/70168968/161627411-95931674-9d2f-433b-9c27-6ec0a2bd79d4.png)
 
 ### Random Forest
 
-![image](https://user-images.githubusercontent.com/70168968/161591337-5b861896-bc1e-4acb-9d5f-e0546c579a8c.png)
+![image](https://user-images.githubusercontent.com/70168968/161627570-2296aa5a-a430-4f35-8eb0-7cc43895a7bb.png)
 
-![image](https://user-images.githubusercontent.com/70168968/161591360-b3956444-1ada-435f-956e-9b532324e494.png)
+![image](https://user-images.githubusercontent.com/70168968/161627599-a9df3eec-738b-45b5-b001-d20ee9b0f0f7.png)
 
 ## Advanced Machine Learning Techniques
 
@@ -225,6 +224,9 @@ We can see that this model does not perform very well on our dataset, which make
 ![image](https://user-images.githubusercontent.com/70168968/161617673-c8b0197f-7dea-4854-adbf-7a680be3623b.png)
 
 ![image](https://user-images.githubusercontent.com/70168968/161618254-6a2d52b7-d9ed-4286-bd43-e1b58c9b5927.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161628837-7927250d-2c5e-4cd0-9630-30b42389a574.png)
+
 
 
 - Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
