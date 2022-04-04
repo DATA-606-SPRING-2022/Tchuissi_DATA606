@@ -227,6 +227,14 @@ We can see that this model does not perform very well on our dataset, which make
 
 ![image](https://user-images.githubusercontent.com/70168968/161628837-7927250d-2c5e-4cd0-9630-30b42389a574.png)
 
+### Random Forest Classifier
+![image](https://user-images.githubusercontent.com/70168968/161635983-147b8622-58f4-4a55-b1a8-278d4bc57da4.png)
+![image](https://user-images.githubusercontent.com/70168968/161636009-a4cdae8a-c7ca-491c-9fef-f7bd90cd1ff2.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161636057-0318e157-3af5-48ea-a482-3ca950abc147.png)
+![image](https://user-images.githubusercontent.com/70168968/161636099-497d91cc-d687-4619-bed8-af557ebeec61.png)
+![image](https://user-images.githubusercontent.com/70168968/161636130-78dd9b84-9500-4762-b3ee-f9007f676883.png)
+
 
 
 - Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
