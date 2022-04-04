@@ -176,11 +176,47 @@ GBA, BATHRM and ROOMS have a linear correlation.
 There is no linear correlation for ROOF
 
 # ML Techniques
-- Split dataset
-- Categorical data encoding
-- Feature engineering
-- Feature importance
-- Feature selection with Random forest
+
+In this second part, we will now evaluate the dataset and see how well it predicts house prices.
+The goal is to predict a price, which is a continuous value: it's a regression problem.
+## Split dataset
+
+We will split the dataset with the 80/20: 80% for the the training data and 20% for the test data.
+We will have 10 features and 1 target, the price
+## Feature importance with Random forest
+First, let's measure the feature importance by using the Random Forest ensemble technique
+![image](https://user-images.githubusercontent.com/70168968/161578115-ecffdc61-1df2-466a-aa62-7d4f78ac9ff0.png)
+
+- The Gross Building Area (GBA) is the most important feature (37%)
+- The number of rooms (13%)
+- The roof type (8,6%)
+- Structure type (8,2%)
+- External wall type (7,2%)
+
+## Machine Learning Techniques
+
+### Linear Regression
+
+Our first ML technique is Linear Regression.
+![image](https://user-images.githubusercontent.com/70168968/161583774-caf6b63d-45c5-40ad-b068-ef7668d04289.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161583899-b1f30ccc-92ee-467e-bcb4-139862125a66.png)
+
+We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
+
+### Decision Tree
+![image](https://user-images.githubusercontent.com/70168968/161591278-0175cb33-4430-4313-82b0-16d8df016a6d.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161591306-2bea0f3e-783c-45c3-97b5-8f54f68c28b2.png)
+
+### Random Forest
+
+![image](https://user-images.githubusercontent.com/70168968/161591337-5b861896-bc1e-4acb-9d5f-e0546c579a8c.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161591360-b3956444-1ada-435f-956e-9b532324e494.png)
+
+## Advanced Machine Learning Techniques
+
 - Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
 - Accuracy methods (precision, recall, F1)
 - Predict the housing prices on test dataset
