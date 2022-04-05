@@ -80,19 +80,19 @@ In 2021, the number of houses sold increased by 34,4% as compared to 2020. The C
 
 ## EDA: Variables Frequency 
 ### 1.Heat type
-![image](https://user-images.githubusercontent.com/70168968/155884833-653eb12f-af4e-4519-82f3-969be6595162.png)
+![image](https://user-images.githubusercontent.com/70168968/161833010-bb608235-ccc6-4f7d-a144-3ad84d2c39a6.png)
 The three most common heat type are:
 - Hot Water Rad (36.8%)
 - Forced Air (35.8%)
 - Warm Cool (25%)
 ### 2. House structure
-![image](https://user-images.githubusercontent.com/70168968/155884851-97618645-afc7-41f6-afcc-8516c4a64a27.png)
+![image](https://user-images.githubusercontent.com/70168968/161833261-ce511270-e81b-40da-bc4a-eb7ee7fe8f53.png)
 The three most common house structures are:
 - Row houses (50.6%)
 - Single houses (29.4%)
 - Semi-detached houses (15%)
 ### 3. Exterior Walls
-![EXTWALLS](https://user-images.githubusercontent.com/70168968/155885002-ec15c11b-c2c9-4965-b4c6-609d25039d51.png)
+![image](https://user-images.githubusercontent.com/70168968/161833426-71cd337f-554b-4fd3-94f8-22736be094de.png)
 
 The five common exterior walls are: 92056
 - Common brick (75%)
@@ -101,7 +101,7 @@ The five common exterior walls are: 92056
 - Wood Siding (4.1%)
 - Stucco (2.9%)
 ### 4. Interior walls
-![INTWALL](https://user-images.githubusercontent.com/70168968/155885010-55e9684b-d14f-47be-b956-a1dd1c18c943.png)
+![image](https://user-images.githubusercontent.com/70168968/161833535-8ffacbe6-3fc9-49e1-92a0-6e1e960029cd.png)
 
 The four common interior walls are:
 - Hardwood (78.3%)
@@ -109,7 +109,7 @@ The four common interior walls are:
 - Wood floor (7.1%)
 - Carpet (3.3%)
 ### 5.Roof type
-![roof](https://user-images.githubusercontent.com/70168968/155885097-649a17af-35d6-42f8-a093-ea1ef6c89521.png)
+![image](https://user-images.githubusercontent.com/70168968/161833666-9881b85b-71dd-4904-a41d-f5906e4ea798.png)
 
 The four most common roof types are:
 
@@ -118,7 +118,7 @@ The four most common roof types are:
 - Metal-sms (27.7%)
 - Slate (10.1%)
 ### 6. Number of bathrooms
-![BATHRM](https://user-images.githubusercontent.com/70168968/155885073-cc8a7517-a9f8-4d35-aa3d-7b86a81f6995.png)
+![image](https://user-images.githubusercontent.com/70168968/161833845-98bfb824-c941-46cc-8c0e-96adc48509fd.png)
 Most of the houses have:
 
 - 2 bathrooms (35.8%)
@@ -126,7 +126,7 @@ Most of the houses have:
 - 3 bathrooms (22.4%)
 - 4 bathrooms (8.8%)
 ### 7. Number of rooms
-![ROOMS](https://user-images.githubusercontent.com/70168968/155885571-66d1ed37-9161-4695-a2e4-af02ad0030c0.png)
+![image](https://user-images.githubusercontent.com/70168968/161834032-debe75a1-5c3d-4d03-96a1-7f01230168be.png)
 
 The most common rooms numbers are:
 
@@ -140,7 +140,7 @@ The most common rooms numbers are:
 - 11 rooms (2.3%)
 - 16 rooms (1.3%)
 ### 8. Number of bedrooms
-![BEDRM](https://user-images.githubusercontent.com/70168968/155885643-4c2d720c-28a4-41f1-9a55-8bd132ac9dbb.png)
+![image](https://user-images.githubusercontent.com/70168968/161834575-728b0aa2-de94-466b-9656-e3f3f8ddb198.png)
 The most common rooms numbers are:
 
 - 3 bedrooms (48.3%)
@@ -150,7 +150,7 @@ The most common rooms numbers are:
 - 6 bedrooms (3.3%)
 
 ### 9. Number of stories
-![STORIES](https://user-images.githubusercontent.com/70168968/155885655-3cb0cae5-295f-4fbd-9ecd-8eecebd71e44.png)
+![image](https://user-images.githubusercontent.com/70168968/161834693-d0c569fe-fc9f-407b-a449-2708375ccd32.png)
 
 The most common stories numbers are:
 
@@ -172,8 +172,12 @@ The variables that are more correlated to the price are:
 ## EDA: Scatterplot Matrix
 ![image](https://user-images.githubusercontent.com/70168968/161561462-2bc8ed86-e728-4a78-8109-e94db93018b1.png)
 
-GBA, BATHRM and ROOMS have a linear correlation.
-There is no linear correlation for ROOF
+![image](https://user-images.githubusercontent.com/70168968/161836058-2aa49316-d936-4bbd-8397-5620829ef0c5.png)
+
+
+GBA, BATHRM and ROOMS have a linear correlation with the price.
+There is no linear correlation for the other house characteritics.
+
 
 # Part 2:  Machine learning evaluation
 
