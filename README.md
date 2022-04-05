@@ -175,15 +175,15 @@ The variables that are more correlated to the price are:
 GBA, BATHRM and ROOMS have a linear correlation.
 There is no linear correlation for ROOF
 
-# ML Techniques
+# Part 2:  Machine learning evaluation
 
 In this second part, we will now evaluate the dataset and see how well it predicts house prices.
 The goal is to predict a price, which is a continuous value: it's a regression problem.
-## Split dataset
+## II.a Split dataset
 
 We will split the dataset with the 80/20: 80% for the the training data and 20% for the test data.
 We will have 10 features and 1 target, the price
-## Feature importance with Random forest
+## II.b Feature importance with Random forest
 First, let's measure the feature importance by using the Random Forest ensemble technique
 ![image](https://user-images.githubusercontent.com/70168968/161578115-ecffdc61-1df2-466a-aa62-7d4f78ac9ff0.png)
 
@@ -193,33 +193,133 @@ First, let's measure the feature importance by using the Random Forest ensemble 
 - Structure type (8,2%)
 - External wall type (7,2%)
 
-## Machine Learning Techniques
+## II.c Machine Learning Techniques
 
-### Linear Regression
+For all the techniques, our two metrics will be the following:
 
-Our first ML technique is Linear Regression.
-![image](https://user-images.githubusercontent.com/70168968/161583774-caf6b63d-45c5-40ad-b068-ef7668d04289.png)
+- **R-squared or Coefficient of Determination (R2)**: This metric represents the part of the variance of the dependent variable explained by the independent variables of the model. It measures the strength of the relationship between your model and the dependent variable
+- **Mean Absolute Error (MAE)**: This metric evaluates the mean of the absolute values of each prediction error on all instances of the test data-set. Prediction error is the difference between the actual value and the predicted value for that instance.
 
-![image](https://user-images.githubusercontent.com/70168968/161583899-b1f30ccc-92ee-467e-bcb4-139862125a66.png)
+### II.c.1 Linear Regression model: Ordinal Least Square (OLS)
 
-We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
+Our first ML technique is Linear Regression with OLS. Ordinary least squares (OLS) regression is a statistical method of analysis that estimates the relationship between one or more independent variables and a dependent variable; the method estimates the relationship by minimizing the sum of the squares in the difference between the observed and predicted values of the dependent variable configured as a straight line
+![image](https://user-images.githubusercontent.com/70168968/161627216-410ee6af-c8b6-4539-9aa6-4adc7ce7e3ae.png)
 
-### Decision Tree
-![image](https://user-images.githubusercontent.com/70168968/161591278-0175cb33-4430-4313-82b0-16d8df016a6d.png)
+![image](https://user-images.githubusercontent.com/70168968/161627256-e2ce8375-4ed2-43d1-b1e6-81208da4c50f.png)
 
-![image](https://user-images.githubusercontent.com/70168968/161591306-2bea0f3e-783c-45c3-97b5-8f54f68c28b2.png)
 
-### Random Forest
 
-![image](https://user-images.githubusercontent.com/70168968/161591337-5b861896-bc1e-4acb-9d5f-e0546c579a8c.png)
+R2= 0.288
+MAE= 596.87
 
-![image](https://user-images.githubusercontent.com/70168968/161591360-b3956444-1ada-435f-956e-9b532324e494.png)
+**Conclusion**: We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
+The R2 error is around 0.29 and the MAE error is 600. The model is not performing very well
 
-## Advanced Machine Learning Techniques
 
-- Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
-- Accuracy methods (precision, recall, F1)
-- Predict the housing prices on test dataset
-- Visualization of the results
+### II.c.2 Other Linear Regression models
 
-# Conclusion and lessons learned
+**Ridge**: Ridge regression is a method of estimating the coefficients of multiple-regression models in scenarios where linearly independent variables are highly correlated
+
+**Lasso**: Lasso regression is a type of linear regression that uses shrinkage. Shrinkage is where data values are shrunk towards a central point, like the mean. The lasso procedure encourages simple, sparse models (i.e. models with fewer parameters)
+
+**Bayesian**: Bayesian regression is an approach to linear regression in which the statistical analysis is undertaken within the context of Bayesian inference. When the regression model has errors that have a normal distribution, and if a particular form of prior distribution is assumed, explicit results are available for the posterior probability distributions of the model's parameters
+
+**ElasticNet**: Elastic Net is a regularized regression method that linearly combines the L1 and L2 penalties of the lasso and ridge methods
+
+![image](https://user-images.githubusercontent.com/70168968/161816836-7efdb640-9ac2-4b27-9c4d-f0cd3b7cb4a0.png)
+
+
+**Conclusion**: the other linear regression models perform  less well than OLS regression
+
+### II.c.3 Decision Tree
+
+The goal of using a Decision Tree is to create a training model that can use to predict the class or value of the target variable by learning simple decision rules inferred from prior data(training data)
+![image](https://user-images.githubusercontent.com/70168968/161627381-410de1e3-8e3a-4b61-8c8f-0c976bb6170d.png)
+![image](https://user-images.githubusercontent.com/70168968/161627411-95931674-9d2f-433b-9c27-6ec0a2bd79d4.png)
+
+R2= 0.209
+MAE= 601.93
+
+
+**Conclusion**: The decision tree model performs less well than the OLS regression. 
+
+
+### II.c.4 Random Forest
+
+Random Forest is a “Tree”-based algorithm that uses the qualities features of multiple Decision Trees for making decisions
+
+![image](https://user-images.githubusercontent.com/70168968/161627570-2296aa5a-a430-4f35-8eb0-7cc43895a7bb.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161627599-a9df3eec-738b-45b5-b001-d20ee9b0f0f7.png)
+
+R2: 0.265
+MAE: 603.47 
+**Conclusion**: The model performs better than the decision tree but not as well as the OLS method
+
+## II.d Advanced Machine Learning Techniques
+Given our results, we can use advanced machine learning techniques to improve the performance
+
+### II.d.1 K-fold cross-validation
+
+In k-fold cross-validation, we randomly split the training dataset into k folds without replacement, where k-1 folds are used for the model training, and one fold is used for performance evaluation. This procedure is repeated k times so that we obtain k models and performances.
+
+The test dataset is used to calculate the accuracy score of the model, which is collected in the scores list to calculate the average accuracy and the standard deviation of the estimate.
+![image](https://user-images.githubusercontent.com/70168968/161803319-eff6b394-7db6-4567-9057-54552d4842d2.png)
+
+### II.d.2 Tuning hyperparameters via grid search
+
+The grid search approach is a brute-force exhaustive search paradigm where we specify a list of values for different hyperparameters, and the computer evaluates the model performance for each combination to obtain the optimal combination of values from this set
+![image](https://user-images.githubusercontent.com/70168968/161803497-1c447ad8-64ff-4a77-afa8-93f44181ffcc.png)
+
+
+### II.d.3 Ensemble methods: bagging and boosting
+
+The goal of ensemble methods is to combine different classifiers into a meta-classifier that has better generalization performance than each individual classifier alone
+
+- In bagging, the objective is to create several subsets of data from training sample chosen randomly with replacement. Each collection of subset data is used to train their decision trees. As a result, we get an ensemble of different models. Average of all the predictions from different trees are used which is more robust than a single decision tree classifier
+
+- In boosting, the ensemble consists of very simple base classifiers, also referred to as weak learners. The key concept behind boosting is to focus on training examples that are hard to classify, that is, to let the weak learners subsquently learn from missclassified training examples to improve the performance of the ensemble
+![image](https://user-images.githubusercontent.com/70168968/161803730-2bf4deef-9a7e-4db9-b59f-d03dfa5d7570.png)
+
+### II.d.4 Random Forest Classifier
+- Best parameters:
+Max_depth=1
+N_estimators= 50
+
+- The model did not work well on my dataset.
+
+![image](https://user-images.githubusercontent.com/70168968/161812634-b7df68fa-574d-4bbf-a2b5-0158b82c4b6e.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161812682-449a2b86-539a-4e74-9168-271ce576dbb8.png)
+
+### II.d.5Gradient Boosting
+![image](https://user-images.githubusercontent.com/70168968/161617544-3b157133-e467-4a5f-98ef-554aa8ab3dc7.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161617616-cb0b1067-f098-4022-aa8b-13d09dbe115f.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161617673-c8b0197f-7dea-4854-adbf-7a680be3623b.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161618254-6a2d52b7-d9ed-4286-bd43-e1b58c9b5927.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161628837-7927250d-2c5e-4cd0-9630-30b42389a574.png)
+
+- Best parameters according to Grid Search:
+Learning_rate: 0.01
+Max_depth: 5
+N_estimators: 250
+
+![image](https://user-images.githubusercontent.com/70168968/161806804-51ddbf8a-93a0-45d6-9750-8a6f5a8c5121.png)
+
+R2: 0.679
+MAE: 573.81
+
+Learning curve
+
+![image](https://user-images.githubusercontent.com/70168968/161806965-215eefc3-1e10-4260-91d3-2e6313ac4c52.png)
+
+**Conclusion**: The model is overfitting (high bias). It performs better on training data than on test data.
+
+## Summary and Conclusion
+
+![image](https://user-images.githubusercontent.com/70168968/161819186-58e42864-3401-45c5-8d33-c717364bfa89.png)
+
