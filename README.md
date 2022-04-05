@@ -207,6 +207,9 @@ Our first ML technique is Linear Regression with OLS. Ordinary least squares (OL
 
 ![image](https://user-images.githubusercontent.com/70168968/161627256-e2ce8375-4ed2-43d1-b1e6-81208da4c50f.png)
 
+![image](https://user-images.githubusercontent.com/70168968/161823881-9d0137a4-0106-4166-9189-431a6c767e8a.png)
+
+
 R2= 0.288
 MAE= 596.87
 
