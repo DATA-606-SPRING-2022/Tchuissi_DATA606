@@ -261,7 +261,14 @@ The goal of ensemble methods is to combine different classifiers into a meta-cla
 ![image](https://user-images.githubusercontent.com/70168968/161803730-2bf4deef-9a7e-4db9-b59f-d03dfa5d7570.png)
 
 ### II.d.4 Random Forest Classifier
+Best parameters:
+Max_depth=1
+N_estimators= 50
+The model did not work well on my dataset.
 
+![image](https://user-images.githubusercontent.com/70168968/161812634-b7df68fa-574d-4bbf-a2b5-0158b82c4b6e.png)
+
+![image](https://user-images.githubusercontent.com/70168968/161812682-449a2b86-539a-4e74-9168-271ce576dbb8.png)
 
 ### II.d.5Gradient Boosting
 ![image](https://user-images.githubusercontent.com/70168968/161617544-3b157133-e467-4a5f-98ef-554aa8ab3dc7.png)
