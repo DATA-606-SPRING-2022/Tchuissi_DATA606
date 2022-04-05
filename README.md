@@ -172,8 +172,12 @@ The variables that are more correlated to the price are:
 ## EDA: Scatterplot Matrix
 ![image](https://user-images.githubusercontent.com/70168968/161561462-2bc8ed86-e728-4a78-8109-e94db93018b1.png)
 
-GBA, BATHRM and ROOMS have a linear correlation.
-There is no linear correlation for ROOF
+![image](https://user-images.githubusercontent.com/70168968/161836058-2aa49316-d936-4bbd-8397-5620829ef0c5.png)
+
+
+GBA, BATHRM and ROOMS have a linear correlation with the price.
+There is no linear correlation for the other house characteritics.
+
 
 # Part 2:  Machine learning evaluation
 
