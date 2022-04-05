@@ -195,6 +195,11 @@ First, let's measure the feature importance by using the Random Forest ensemble 
 
 ## II.c Machine Learning Techniques
 
+For all the techniques, our two metrics will be the following:
+
+- **R-squared or Coefficient of Determination (R2)**: This metric represents the part of the variance of the dependent variable explained by the independent variables of the model. It measures the strength of the relationship between your model and the dependent variable
+- **Mean Absolute Error (MAE)**: This metric evaluates the mean of the absolute values of each prediction error on all instances of the test data-set. Prediction error is the difference between the actual value and the predicted value for that instance.
+
 ### II.c.1 Linear Regression model: Ordinal Least Square (OLS)
 
 Our first ML technique is Linear Regression with OLS. Ordinary least squares (OLS) regression is a statistical method of analysis that estimates the relationship between one or more independent variables and a dependent variable; the method estimates the relationship by minimizing the sum of the squares in the difference between the observed and predicted values of the dependent variable configured as a straight line
@@ -202,7 +207,10 @@ Our first ML technique is Linear Regression with OLS. Ordinary least squares (OL
 
 ![image](https://user-images.githubusercontent.com/70168968/161627256-e2ce8375-4ed2-43d1-b1e6-81208da4c50f.png)
 
-We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
+R2= 0.288
+MAE= 596.87
+
+**Conclusion**: We can see that this model does not perform very well on our dataset, which makes sense since not all the features are linearly correlated to the price.
 The R2 error is around 0.29 and the MAE error is 600. The model is not performing very well
 
 ### II.c.2 Other Linear Regression models
@@ -223,6 +231,8 @@ The goal of using a Decision Tree is to create a training model that can use to 
 ![image](https://user-images.githubusercontent.com/70168968/161627381-410de1e3-8e3a-4b61-8c8f-0c976bb6170d.png)
 ![image](https://user-images.githubusercontent.com/70168968/161627411-95931674-9d2f-433b-9c27-6ec0a2bd79d4.png)
 
+R2= 0.209
+MAE= 601.93
 **Conclusion**: The decision tree model performs less well than the OLS regression
 
 ### II.c.4 Random Forest
@@ -233,6 +243,8 @@ Random Forest is a “Tree”-based algorithm that uses the qualities features o
 
 ![image](https://user-images.githubusercontent.com/70168968/161627599-a9df3eec-738b-45b5-b001-d20ee9b0f0f7.png)
 
+R2: 0.265
+MAE: 603.47 
 **Conclusion**: The model performs better than the decision tree but not as well as the OLS method
 
 ## II.d Advanced Machine Learning Techniques
@@ -261,10 +273,11 @@ The goal of ensemble methods is to combine different classifiers into a meta-cla
 ![image](https://user-images.githubusercontent.com/70168968/161803730-2bf4deef-9a7e-4db9-b59f-d03dfa5d7570.png)
 
 ### II.d.4 Random Forest Classifier
-Best parameters:
+- Best parameters:
 Max_depth=1
 N_estimators= 50
-The model did not work well on my dataset.
+
+- The model did not work well on my dataset.
 
 ![image](https://user-images.githubusercontent.com/70168968/161812634-b7df68fa-574d-4bbf-a2b5-0158b82c4b6e.png)
 
@@ -281,7 +294,7 @@ The model did not work well on my dataset.
 
 ![image](https://user-images.githubusercontent.com/70168968/161628837-7927250d-2c5e-4cd0-9630-30b42389a574.png)
 
-Best parameters according to Grid Search:
+- Best parameters according to Grid Search:
 Learning_rate: 0.01
 Max_depth: 5
 N_estimators: 250
@@ -297,20 +310,7 @@ Learning curve
 
 **Conclusion**: The model is overfitting (high bias). It performs better on training data than on test data.
 
-### Random Forest Classifier
-![image](https://user-images.githubusercontent.com/70168968/161635983-147b8622-58f4-4a55-b1a8-278d4bc57da4.png)
-![image](https://user-images.githubusercontent.com/70168968/161636009-a4cdae8a-c7ca-491c-9fef-f7bd90cd1ff2.png)
 
-![image](https://user-images.githubusercontent.com/70168968/161636057-0318e157-3af5-48ea-a482-3ca950abc147.png)
-![image](https://user-images.githubusercontent.com/70168968/161636099-497d91cc-d687-4619-bed8-af557ebeec61.png)
-![image](https://user-images.githubusercontent.com/70168968/161636130-78dd9b84-9500-4762-b3ee-f9007f676883.png)
-
-
-
-- Training the models for continuous values: linear regression (Ridge, Lasso & Elastic Net), decision tree, random forest
-- Accuracy methods (precision, recall, F1)
-- Predict the housing prices on test dataset
-- Visualization of the results
 
 
 
