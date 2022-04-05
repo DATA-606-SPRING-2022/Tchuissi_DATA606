@@ -80,7 +80,7 @@ In 2021, the number of houses sold increased by 34,4% as compared to 2020. The C
 
 ## EDA: Variables Frequency 
 ### 1.Heat type
-![image](https://user-images.githubusercontent.com/70168968/161832503-6deb02ca-e3ee-47c6-b767-f4db4ec75ee5.png)
+![image](https://user-images.githubusercontent.com/70168968/161832636-81ea633d-295c-4929-8519-84b3a640e802.png)
 The three most common heat type are:
 - Hot Water Rad (36.8%)
 - Forced Air (35.8%)
