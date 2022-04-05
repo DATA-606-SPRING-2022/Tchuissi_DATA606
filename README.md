@@ -223,6 +223,13 @@ The R2 error is around 0.29 and the MAE error is 600. The model is not performin
 
 **ElasticNet**: Elastic Net is a regularized regression method that linearly combines the L1 and L2 penalties of the lasso and ridge methods
 
+	Ridge	Lasso	Bayesian	Elastic Net
+R2	0.211	0.211	0.212	0.212
+MAE	609.61	609.61	609.67	609.65
+
+![image](https://user-images.githubusercontent.com/70168968/161816836-7efdb640-9ac2-4b27-9c4d-f0cd3b7cb4a0.png)
+
+
 **Conclusion**: the other linear regression models perform  less well than OLS regression
 
 ### II.c.3 Decision Tree
