@@ -313,8 +313,7 @@ Learning curve
 
 **Conclusion**: The model is overfitting (high bias). It performs better on training data than on test data.
 
+## Summary and Conclusion
 
+![image](https://user-images.githubusercontent.com/70168968/161819186-58e42864-3401-45c5-8d33-c717364bfa89.png)
 
-
-
-# Conclusion and lessons learned
