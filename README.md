@@ -11,7 +11,7 @@ My unit of analysis is housing in Washington DC at a city level and the unit typ
 # Hypothesis / Research Question(s)
 - What are the attributes that affect the selling prices in DC downtown for houses?
 - Are structural characteristics playing a role in the selling price?
-- Is there any pattern/reason as to why the housing selling prices are rising over the years? Is the COVID-19 increased the prices faster than before?
+- Is the COVID-19 increased the prices faster than before?
 - How well can this dataset predict houses price?
 
 # Dataset
@@ -325,5 +325,28 @@ Learning curve
 
 ## Summary and Conclusion
 
-![image](https://user-images.githubusercontent.com/70168968/161819186-58e42864-3401-45c5-8d33-c717364bfa89.png)
+![image](https://user-images.githubusercontent.com/70168968/162045024-c75c054b-dbbf-4e4e-82cb-7aee82cc3dbd.png)
+The application of advanced machine learning improved the performance by more than 100% for the R2.
+
+The model can be further improved by adding more hyperparameters and and by addressing overfitting issue.
+
+Research questions answers:
+
+- What are the attributes that affect the selling prices in DC downtown for houses? The top 5 attributes are
+The Gross Building Area (GBA)  (37%)
+The number of rooms (13%)
+The roof type (8,6%)
+Structure type (8,2%)
+External wall type (7,2%)
+
+
+- Are structural characteristics playing a role in the selling price? The top 3 structural characteristics are the roof type, the structure type and the external wall type
+
+- Is the COVID-19 increased the prices faster than before? 
+Tne COVID-19 was an accelerator : both the number of houses sold, and the selling price increased
+
+- How well can this dataset predict houses price? With normal ML model R2 <0.30
+With Advanced model, R2>0.65
+
+
 
