@@ -11,7 +11,7 @@ My unit of analysis is housing in Washington DC at a city level and the unit typ
 # Hypothesis / Research Question(s)
 - What are the attributes that affect the selling prices in DC downtown for houses?
 - Are structural characteristics playing a role in the selling price?
-- Is the COVID-19 increased the prices faster than before?
+- How fast did the prices and the number of houses sold increased over the last two years?
 - How well can this dataset predict houses price?
 
 # Dataset
@@ -297,15 +297,6 @@ N_estimators= 50
 ![image](https://user-images.githubusercontent.com/70168968/161812682-449a2b86-539a-4e74-9168-271ce576dbb8.png)
 
 ### II.d.5Gradient Boosting
-![image](https://user-images.githubusercontent.com/70168968/161617544-3b157133-e467-4a5f-98ef-554aa8ab3dc7.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161617616-cb0b1067-f098-4022-aa8b-13d09dbe115f.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161617673-c8b0197f-7dea-4854-adbf-7a680be3623b.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161618254-6a2d52b7-d9ed-4286-bd43-e1b58c9b5927.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161628837-7927250d-2c5e-4cd0-9630-30b42389a574.png)
 
 - Best parameters according to Grid Search:
 Learning_rate: 0.01
@@ -342,11 +333,27 @@ External wall type (7,2%)
 
 - Are structural characteristics playing a role in the selling price? The top 3 structural characteristics are the roof type, the structure type and the external wall type
 
-- Is the COVID-19 increased the prices faster than before? 
-Tne COVID-19 was an accelerator : both the number of houses sold, and the selling price increased
+- How fast did the prices and the number of houses sold increased over the last two years? 2019-2020: + 13,5% 
+2020-2021: + 34,4% 
+2021: $726,258  (+8,4 %) 
+2020: $670,103 (+ 7,3 %) 
+2019: $624,484  (+ 2%) 
+The number of houses sold tripled in 2021 as compared to 2020 and the average price as well
+
+
 
 - How well can this dataset predict houses price? With normal ML model R2 <0.30
 With Advanced model, R2>0.65
 
+# References
+
+Python Machine Learning: Perform Python Machine Learning and Deep Learning with Python,
+scikit-learn, and TensorFlow, 3rd Edition by Sebastian Raschka and Vahid Mirjalili (2019).
+
+Medium article: House Price Prediction With Machine Learning in Python (https://medium.com/codex/house-price-prediction-with-machine-learning-in-python-cf9df744f7ff)
+
+Toward Data Science Article: Predicting House Prices with Machine Learning (https://towardsdatascience.com/predicting-house-prices-with-machine-learning-62d5bcd0d68f)
+
+Youtube video: House Price Prediction using Machine Learning (https://www.youtube.com/watch?v=ta3Wd6Q5Byc)
 
 
