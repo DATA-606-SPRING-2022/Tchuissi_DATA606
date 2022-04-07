@@ -11,7 +11,7 @@ My unit of analysis is housing in Washington DC at a city level and the unit typ
 # Hypothesis / Research Question(s)
 - What are the attributes that affect the selling prices in DC downtown for houses?
 - Are structural characteristics playing a role in the selling price?
-- Is the COVID-19 increased the prices faster than before?
+- How fast did the prices and the number of houses sold increased over the last two years?
 - How well can this dataset predict houses price?
 
 # Dataset
@@ -342,11 +342,27 @@ External wall type (7,2%)
 
 - Are structural characteristics playing a role in the selling price? The top 3 structural characteristics are the roof type, the structure type and the external wall type
 
-- Is the COVID-19 increased the prices faster than before? 
-Tne COVID-19 was an accelerator : both the number of houses sold, and the selling price increased
+- How fast did the prices and the number of houses sold increased over the last two years? 2019-2020: + 13,5% 
+2020-2021: + 34,4% 
+2021: $726,258  (+8,4 %) 
+2020: $670,103 (+ 7,3 %) 
+2019: $624,484  (+ 2%) 
+The number of houses sold tripled in 2021 as compared to 2020 and the average price as well
+
+
 
 - How well can this dataset predict houses price? With normal ML model R2 <0.30
 With Advanced model, R2>0.65
 
+# References
+
+Python Machine Learning: Perform Python Machine Learning and Deep Learning with Python,
+scikit-learn, and TensorFlow, 3rd Edition by Sebastian Raschka and Vahid Mirjalili (2019).
+
+Medium article: House Price Prediction With Machine Learning in Python (https://medium.com/codex/house-price-prediction-with-machine-learning-in-python-cf9df744f7ff)
+
+Toward Data Science Article: Predicting House Prices with Machine Learning (https://towardsdatascience.com/predicting-house-prices-with-machine-learning-62d5bcd0d68f)
+
+Youtube video: House Price Prediction using Machine Learning (https://www.youtube.com/watch?v=ta3Wd6Q5Byc)
 
 
