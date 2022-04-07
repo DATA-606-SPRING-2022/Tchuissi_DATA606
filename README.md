@@ -297,15 +297,6 @@ N_estimators= 50
 ![image](https://user-images.githubusercontent.com/70168968/161812682-449a2b86-539a-4e74-9168-271ce576dbb8.png)
 
 ### II.d.5Gradient Boosting
-![image](https://user-images.githubusercontent.com/70168968/161617544-3b157133-e467-4a5f-98ef-554aa8ab3dc7.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161617616-cb0b1067-f098-4022-aa8b-13d09dbe115f.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161617673-c8b0197f-7dea-4854-adbf-7a680be3623b.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161618254-6a2d52b7-d9ed-4286-bd43-e1b58c9b5927.png)
-
-![image](https://user-images.githubusercontent.com/70168968/161628837-7927250d-2c5e-4cd0-9630-30b42389a574.png)
 
 - Best parameters according to Grid Search:
 Learning_rate: 0.01
